@@ -1,0 +1,14 @@
+.events__item {
+  height: 340px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.like__wrapper {
+  position: absolute;
+  width: 100%;
+  max-width: 34px;
+  z-index: 1;
+  right: 6px;
+  top: 6px;
+}

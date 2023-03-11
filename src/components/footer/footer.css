@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 80px;
+    height: 60px;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright h3{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}

@@ -1,0 +1,146 @@
+.hero__section {
+  background: url(../assets/images/hero-img.png) no-repeat center center;
+  background-size: cover;
+}
+
+.search__event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+  height: 549px;
+  padding: 50px;
+  column-gap: 30px;
+  border-radius: 8px;
+}
+
+.filter {
+  display: flex;
+  column-gap: 10px;
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.filter select {
+  width: 100%;
+}
+
+select .default {
+  color: var(--secondary-color);
+}
+
+.date {
+  display: flex;
+  column-gap: 10px;
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.search__event h3 {
+  font-size: 24px;
+}
+
+.search__event span {
+  border: 1px dashed #e6e6e6;
+}
+
+.search__event button {
+  background: var(--btn-color);
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+label {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+i {
+  color: var(--secondary-color);
+}
+
+.highlighted__events{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.title{
+    padding: 0 25px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.swiper-button-prev {
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  left: 1;
+}
+
+.swiper-button-next {
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  right: 1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+  color: var(--btn-color);
+  overflow: visible !important;
+}
+
+.swiper {
+  padding: 25px;
+}
+
+.swiper-slide {
+  width: 377px;
+  height: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.event__header img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.event__shortdesc{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 5px; 
+}
+
+.event__name{
+    font-size: 16px;
+}
+
+.event__date{
+    color: var(--primary-color);
+}
+
+.event__location{
+    color:var(--secondary-color)
+}
+
+.like__wrapper{
+    position: absolute;
+}

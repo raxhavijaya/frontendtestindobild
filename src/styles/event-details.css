@@ -1,0 +1,160 @@
+.eventdetails__section {
+  background: url(../assets/images/section.png) no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.content__wrapper {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 0;
+}
+
+.img__wrapper{
+    padding: 0;
+}
+
+.event__detail {
+  background: #f6f6f6;
+  height: 441px;
+  padding: 50px;
+}
+
+.event__title h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.event__title p {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.icon__title {
+  display: flex;
+  gap: 20px;
+}
+
+.icon__title i {
+  font-size: 27px;
+}
+.btn {
+  background: var(--btn-color);
+  margin-top: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.btn button {
+  color: #fff;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 280px;
+  width: 100px;
+  left: 90px;
+}
+
+.navigation__wrapper {
+  position: absolute;
+  right: 520px;
+  bottom: 280px;
+  display: flex;
+  gap: 10px;
+}
+
+.navigation__wrapper img {
+  width: 30px; 
+}
+
+.price__details,
+.location__details,
+.date__details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 230px;
+    gap: 10px;
+    border-right: 1px dashed #e6e6e6;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.price__details i,
+.location__details i,
+.date__details i{
+    color:rgba(43, 103, 219, 0.5);
+    font-size: 25px;
+}
+
+.price__details h3,
+.location__details h3,
+.date__details h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price__details p,
+.location__details p,
+.date__details p{
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.desc__event{
+    margin-top: 50px;
+padding: 40px;
+border-bottom: 1px dashed #e6e6e6;
+}
+
+.desc__event p,
+.desc__event h3{
+    margin-bottom: 20px;
+}
+
+.desc__event button,
+.location__details a {
+    color: blue;
+}
+
+.logo__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.organize__event {
+    padding: 40px;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.organize__event p,
+.organize__event h3{
+    margin-bottom: 20px;
+}
+
+.organize__event img{
+    width: 175px;
+}
+
+.organize .follow{
+    width: 113px;
+    height: 40px;
+    color: #fff;
+    background: var(--btn-color);
+    border-radius: 20px;
+}
+
+.related__events{
+    padding: 40px;
+}
+
+.related__events .title__section{
+    margin-bottom: 10px;
+}
+
+
